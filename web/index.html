@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns= "http://www.w3.org/1999/xhtml">
+    <head>
+        <link href="bhc.css" rel="stylesheet" type="text/css" />
+        <title>BHC Hike Calculator</title>
+    </head>
+    <body>
+        <h1>BHC Hike Calculator</h1>
+        <br/>
+        <div style="text-align:center;">
+            <img src="./img/Hiking2.gif" alt="Hiking Pic" width="200" height="200" />
+            <img src="./img/BeartoothIslandLakeTrail.jpg" alt="Lake Trail" width="200" height="200" />
+            <img src="./img/TetonTrail.jpg" alt="Lake Trail" width="200" height="200" />
+        </div>
+        <form action="Homework7" method=GET>
+            <center>
+                <br/>
+                <h2>Please select a hike:</h2>
+                <h3>
+                    <input type="RADIO" name="Hike" checked value="gl">Gardiner Lake</input>
+                    <input type="RADIO" name="Hike" value="hp">Hellrolling Plateau</input>
+                    <input type="RADIO" name="Hike" value="tbp">The Beaten Path</input>
+                </h3>
+                <br/>
+                <h2>Please select a start date:</h2>
+                <input type="Text" name="Date" value="dd/MM/yyyy"/>
+                <br/>
+                <h2>Please select a duration:</h2>
+                <select name="Duration">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                </select>
+                <br/>
+                <br/>
+                <input type="SUBMIT" value="Calculate" />
+            </center>
+        </form>
+    </body>
+</html>
+

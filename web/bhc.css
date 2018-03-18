@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+h1 {
+    color: #003C00;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #A0522D;
+    font-size: 26px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: #003C00;
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+ul {
+    color: #003C00;
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+}
+        
+table {
+    margin: 0 auto;
+    color: #003C00;
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+}
