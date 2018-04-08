@@ -17,7 +17,6 @@ import javax.servlet.http.HttpServletResponse;
  * @author Matthew
  */
 public class Homework7 extends HttpServlet {
-
     private BookingDay m_bookingDay;
     private Rates.HIKE m_hike;
 
